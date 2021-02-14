@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:background="#E6E6E6" />
+
+    <Button
+        android:id="@+id/med"
+        android:layout_width="330dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="@font/akronim"
+        android:gravity="center"
+        android:text="@string/meditime"
+        android:textAlignment="gravity"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="330dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_btn2"
+        android:fontFamily="@font/akronim"
+        android:text="WEATHER  ->"
+        android:textAlignment="gravity"
+        android:textSize="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+</LinearLayout>

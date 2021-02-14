@@ -1,0 +1,3 @@
+include ':weatherapp'
+rootProject.name='AtYourService'
+include ':app'
